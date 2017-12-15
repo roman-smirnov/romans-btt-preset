@@ -1,8 +1,6 @@
-# Better Touch Tool Intellij Presets
+# Better Touch Tool Intellij IDE Touchbar Preset
 
 This preset has pretty good usability for Intellij IDE users whom write on touchbar Mac. 
-
-## Touchbar Preset Overview
 
 The customization itself is nothing special
 
