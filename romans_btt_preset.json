@@ -1,0 +1,601 @@
+{
+  "BTTPresetName" : "romans_btt_preset",
+  "BTTPresetUUID" : "63C0B95E-8604-4CD6-8723-2CE459B715BE",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 203,
+          "BTTPredefinedActionName" : "Show Clipboard\/Pasteboard History",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 1179648,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.jetbrains.pycharm",
+      "BTTAppName" : "PyCharm",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "PyCharm",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTouchBarButtonName" : "Usages",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,98",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTouchBarButtonName" : "Rename",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,97",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "PrevErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "NextErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Terminal",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "ColumnMode",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,28",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTTouchBarButtonName" : "esc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 189,
+          "BTTPredefinedActionName" : "ESC (Escape Key, respects pressed modifiers)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 1,
+            "BTTTouchBarItemPadding" : 15,
+            "BTTTouchBarFreeSpaceAfterButton" : "10.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "HideTools",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Inline",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTouchBarButtonName" : "ErrDsc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,122",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.jetbrains.CLion",
+      "BTTAppName" : "CLion",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "CLion",
+      "BTTAppSpecificSettings" : {
+        "BTTTouchBarMode" : 2
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTouchBarButtonName" : "Usages",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,98",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTouchBarButtonName" : "ColMode",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,28",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTTouchBarButtonName" : "HideTools",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "ErrDsc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,122",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 10,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Rename",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,97",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "NextErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "esc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 189,
+          "BTTPredefinedActionName" : "ESC (Escape Key, respects pressed modifiers)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 1,
+            "BTTTouchBarItemPadding" : 15,
+            "BTTTouchBarFreeSpaceAfterButton" : "10.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "PrevErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Terminal",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Build",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,101",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Inline",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.android.studio",
+      "BTTAppName" : "Android Studio",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Android Studio",
+      "BTTAppSpecificSettings" : {
+        "BTTTouchBarMode" : 2
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTouchBarButtonName" : "NextErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Inline",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTouchBarButtonName" : "ErrDsc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,122",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 10,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "HideTools",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Terminal",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,111",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Rename",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,97",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "Usages",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,98",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTouchBarButtonName" : "Run",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,15",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "esc",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 189,
+          "BTTPredefinedActionName" : "ESC (Escape Key, respects pressed modifiers)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 1,
+            "BTTTouchBarItemPadding" : 15,
+            "BTTTouchBarFreeSpaceAfterButton" : "10.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "PrevErr",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,120",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarFreeSpaceAfterButton" : "5.000000",
+            "BTTTouchBarButtonColor" : "58.650001, 58.650001, 58.650001, 255.000000",
+            "BTTTouchBarAlwaysShowButton" : "0",
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        },
+        {
+          "BTTTouchBarButtonName" : "ColMode",
+          "BTTTriggerType" : 629,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,28",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
